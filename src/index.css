@@ -3,5 +3,12 @@
 @tailwind utilities;
 
 body {
-  background-color: #8a14bd;
+  /* background-color: #8a14bd; */
+  background-image: url("./assets/images/bg-head.png");
+  position: relative;
+}
+.contactUs-b {
+  border: 2px solid white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
