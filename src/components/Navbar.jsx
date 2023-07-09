@@ -24,15 +24,15 @@ const Navbar = () => {
         <li className="p-4"> EN </li>
       </ul>
       <div onClick={handleNav} className="block lg:hidden">
-        {!nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={50} />}
+        {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={50} />}
         {/* <AiOutlineMenu size={50} /> */}
       </div>
 
       <div
         className={
-          !nav
-            ? "fixed w-full md:w-5/6 text-center left-0 top-0  border-r-gray-900 mt-24 md:mt-32 py-0  bg-black my-auto centerFixed ease-in-out duration-500"
-            : "mt-24 md:mt-32 fixed left-[-100%]"
+          nav
+            ? "fixed w-full md:w-5/6 text-center z-10 left-0 top-0  border-r-gray-900 mt-24 md:mt-32 py-0  bg-black my-auto centerFixed ease-in-out duration-500"
+            : "mt-24 md:mt-32 fixed left-[-100%] z-10"
         }
       >
         <ul className="">
