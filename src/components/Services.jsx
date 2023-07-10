@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./services.css";
+// import "./services.css";
 import superboll from "../assets/images/superball-icon.png";
 import academy from "../assets/images/academy-icon.png";
 import mastersat from "../assets/images/mastersat-icon.png";
@@ -32,10 +32,10 @@ const Services = () => {
         </div>
         <div className="sm:w-1/2  pt-4">
           <div className="text-[#671090] text-center">
-            <h1 className="uppercase bold text-[12vw] lg:text-[9vw] leading-[70px]">
+            <h1 className="uppercase font-bold text-[12vw] lg:text-[9vw] leading-[70px]">
               We do
             </h1>
-            <h1 className="uppercase text-[6vw] lg:text-[4.5vw] bold ">
+            <h1 className="uppercase text-[6vw] lg:text-[4.5vw] font-bold ">
               everything
             </h1>
           </div>
@@ -51,7 +51,7 @@ const Services = () => {
       <div className=" sm:hidden max-w-[710px] lg:max-w-[900px] xl:max-w-[1150px] mx-auto   relative md:h-[47vw] xl:h-[41vw] z-0 ">
         <div className="sm:w-1/2  pt-4 ">
           <div className="text-[#671090] text-center ">
-            <h1 className="uppercase bold text-[9vw] leading-[70px]">
+            <h1 className="uppercase font-bold text-[9vw] leading-[70px]">
               We do everything
             </h1>
           </div>
@@ -85,10 +85,10 @@ const Services = () => {
       <div className="sm:flex max-w-[710px] lg:max-w-[900px] xl:max-w-[1150px] mx-auto   relative md:h-[47vw] xl:h-[41vw] mt-8 sm:mt-16 lg:mt-0 z-10 mb-[50px] lg:mb-0">
         <div className="sm:w-1/2  pt-4 pb-9 sm:pb-0">
           <div className="text-[#671090] text-center flex justify-center sm:block">
-            <h1 className="uppercase bold text-[9vw] lg:text-[9vw] sm:leading-[70px]">
+            <h1 className="uppercase font-bold text-[9vw] lg:text-[9vw] sm:leading-[70px]">
               latest
             </h1>
-            <h1 className="uppercase text-[9vw] pl-6 sm:pl-0 sm:text-[7vw] lg:text-[6vw] bold ">
+            <h1 className="uppercase text-[9vw] pl-6 sm:pl-0 sm:text-[7vw] lg:text-[6vw] font-bold ">
               projects
             </h1>
           </div>

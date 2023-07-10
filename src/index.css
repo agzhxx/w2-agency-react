@@ -12,3 +12,35 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.square-bg {
+  background-image: url("./assets/images/square-bg.png");
+}
+.bg-2 {
+  background-image: url("./assets/images/bg-2.png");
+  background-size: cover;
+}
+.navbar-icon {
+  left: -50%;
+}
+.centerFixed {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.thirdSection-bg {
+  background-image: url("./assets/images/3-section-bg.png");
+  background-size: cover;
+}
+.review-box {
+  /* fill: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  ); */
+  /* filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(20px); */
+  background-image: url("./assets/images/review-box-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 600px;
+}
