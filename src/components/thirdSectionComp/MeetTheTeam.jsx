@@ -6,7 +6,7 @@ import OmirIcon from "../../assets/images/Omir.png";
 const MeetTheTeam = () => {
   return (
     <div className=" max-w-[710px] lg:max-w-[900px] xl:max-w-[1150px] mx-auto   relative md:h-[47vw] xl:h-[41vw] z-0 ">
-      <h1 className="uppercase text-white text-center text-[8vw] lg:text-[6vw] font-bold pb-5 pt-5 sm:pt-0 sm:pb-10">
+      <h1 className="uppercase text-white text-center text-[8vw] lg:text-[6vw] font-bold pb-5 pt-5 sm:pt-10 sm:pb-10">
         Meet the team
       </h1>
       <div className="sm:flex justify-between text-white text-center">
