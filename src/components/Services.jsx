@@ -12,26 +12,26 @@ const Services = () => {
   return (
     <div className="bg-white pt-10 lg:pt-20 bg-2 relative overflow-hidden">
       <div className=" hidden sm:flex max-w-[710px] lg:max-w-[900px] xl:max-w-[1150px] mx-auto   relative md:h-[47vw] xl:h-[41vw] z-0 ">
-        <div className="sm:w-1/2 text-white">
-          <div className="flex justify-around mt-9">
+        <div className="sm:w-1/2 text-white Geometria-ExtraBold">
+          <div className="flex justify-around mt-9 ">
             <div className="square-bg border-black text-[4vw] uppercase w-[19vw] h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
               <div className=""> smm </div>
             </div>
-            <div className=" square-bg border-black text-[2.5vw] uppercase w-[19vw] h-[19vw]  lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
-              <div className=""> design</div>
+            <div className=" square-bg border-black text-[2.5vw]  w-[19vw] h-[19vw]  lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
+              <div className=""> Design</div>
             </div>
           </div>
           <div className=" flex justify-around mt-9">
-            <div className="square-bg border-black text-[2.5vw] uppercase w-[19vw] h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center rounded-[40px] flex items-center justify-center">
-              <div className=""> websites</div>
+            <div className="square-bg border-black text-[2.3vw]  w-[19vw] h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center rounded-[40px] flex items-center justify-center">
+              <div className=""> Websites</div>
             </div>
-            <div className="square-bg border-black text-[2.5vw] uppercase w-[19vw] h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
-              <div>marketing </div>
+            <div className="square-bg border-black text-[2.1vw]  w-[19vw] h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
+              <div>Marketing </div>
             </div>
           </div>
         </div>
         <div className="sm:w-1/2  pt-4">
-          <div className="text-[#671090] text-center">
+          <div className="text-[#671090] text-center Geometria-ExtraBold">
             <h1 className="uppercase font-bold text-[12vw] lg:text-[9vw] leading-[70px]">
               We do
             </h1>
@@ -63,7 +63,7 @@ const Services = () => {
             business stand out from the crowd, and show a high reputation.
           </p>
         </div>
-        <div className="sm:w-1/2 text-white">
+        <div className="sm:w-1/2 text-white Geometria-ExtraBold">
           <div className="flex justify-around mt-9">
             <div className="square-bg border-black text-[9vw] sm:text-[4vw] uppercase w-[33vw] h-[33vw] sm:w-[19vw] sm:h-[19vw] lg:w-[15vw] lg:h-[15vw] text-center  rounded-[40px] flex items-center justify-center">
               <div className=""> smm </div>
@@ -84,7 +84,7 @@ const Services = () => {
       </div>
       <div className="sm:flex max-w-[710px] lg:max-w-[900px] xl:max-w-[1150px] mx-auto   relative md:h-[47vw] xl:h-[41vw] mt-8 sm:mt-16 lg:mt-0 z-10 mb-[50px] lg:mb-0">
         <div className="sm:w-1/2  pt-4 pb-9 sm:pb-0">
-          <div className="text-[#671090] text-center flex justify-center sm:block">
+          <div className="text-[#671090] text-center flex justify-center sm:block Geometria-ExtraBold">
             <h1 className="uppercase font-bold text-[9vw] lg:text-[9vw] sm:leading-[70px]">
               latest
             </h1>

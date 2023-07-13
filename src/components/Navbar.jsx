@@ -16,7 +16,7 @@ const Navbar = () => {
           <img className="lg:w-32 md:w-28 w-20" src={logo} alt="" />
         </div>
       </div>
-      <ul className="text-lg hidden lg:flex">
+      <ul className="text-lg hidden lg:flex Geometria-Bold">
         <li className="p-4">WHAT DO WE DO</li>
         <li className="p-4">OUR PROJECTS</li>
         <li className="p-4">OUR TEAM</li>

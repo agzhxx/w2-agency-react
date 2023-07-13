@@ -15,7 +15,7 @@ const Hero = () => {
         className="md:absolute right-0 top-0 w-[80vw] mx-auto md:w-[50vw] xl:w-[40vw]"
       />
       <div className="text-center md:text-left">
-        <button className="contactUs-b uppercase text-2xl xl:text-3xl bg-white text-black p-3 rounded-2xl  md:mt-32 font-bold  w-[236px] md:w-auto">
+        <button className="Geometria-ExtraBold contactUs-b uppercase text-2xl xl:text-3xl bg-white text-black p-3 rounded-2xl  md:mt-32 font-bold  w-[236px] md:w-auto">
           contact us now
         </button>
       </div>

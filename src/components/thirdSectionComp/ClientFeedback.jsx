@@ -9,12 +9,12 @@ const ClientFeedback = () => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
   return (
-    <div className=" max-w-[710px] lg:max-w-[980px] xl:max-w-[1350px] mx-auto   relative z-0 text-white ">
-      <h1 className="pt-20 lg:pt-0 uppercase text-white text-center text-[7vw] lg:text-[6vw] font-bold leading-[40px] sm:leading-[60px] lg:leading-[90px] pb-5 sm:placeholder:pb-10 xl:pb-20 px-[6vw]">
-        What clients think about us?
+    <div className=" max-w-[710px] lg:max-w-[980px] xl:max-w-[1350px] mx-auto   relative z-0 text-white pt-20">
+      <h1 className="Geometria-ExtraBold pt-20 lg:pt-0 uppercase text-white text-center text-[7vw] lg:text-[5vw] font-bold leading-[40px] sm:leading-[60px] lg:leading-[90px] pb-5 sm:placeholder:pb-10 xl:pb-20">
+        What clients think <br /> about us?
       </h1>
-      <div className="hidden sm:flex overflow-hidden justify-between text-center ">
-        <div className="review-box w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto">
+      <div className="hidden sm:flex overflow-hidden justify-between text-center Geometria-Medium ">
+        <div className="review-box1 w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto">
           <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
             Review
           </h1>
@@ -38,7 +38,7 @@ const ClientFeedback = () => {
             </div>
           </div>
         </div>
-        <div className="review-box w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto">
+        <div className="review-box1 w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto">
           <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
             Review
           </h1>
@@ -66,7 +66,7 @@ const ClientFeedback = () => {
             </div>
           </div>
         </div>
-        <div className="review-box w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto ">
+        <div className="review-box1 w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-14 sm:mx-auto ">
           <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
             Review
           </h1>
@@ -93,14 +93,14 @@ const ClientFeedback = () => {
           </div>
         </div>
       </div>
-      <motion.div className="sm:hidden overflow-hidden justify-between text-center px-12 ">
+      <motion.div className="sm:hidden overflow-hidden justify-between text-center px-12 Geometria-Medium ">
         <motion.div
           ref={carousel}
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
           className="flex"
         >
-          <div className="review-box min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border  sm:mx-auto">
+          <div className="review-box1 min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border  sm:mx-auto">
             <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
               Review
             </h1>
@@ -124,7 +124,7 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
-          <div className="review-box min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-16 sm:mx-auto">
+          <div className="review-box1 min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-16 sm:mx-auto">
             <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
               Review
             </h1>
@@ -152,7 +152,7 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
-          <div className="review-box min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-16 sm:mx-auto ">
+          <div className="review-bo1 min-w-[100%] sm:w-[29vw] xl:w-[27vw] rounded-[40px] p-4 xl:pb-8 border-white border mx-16 sm:mx-auto ">
             <h1 className="text-[8vw] sm:text-[2vw] lg:text-[2.8vw] font-light">
               Review
             </h1>

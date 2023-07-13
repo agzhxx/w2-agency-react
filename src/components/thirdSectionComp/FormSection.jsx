@@ -2,17 +2,17 @@ import React from "react";
 
 const FormSection = () => {
   return (
-    <div className="w-full text-white text-center">
+    <div className="w-full text-white text-center mb-14 sm:mb-28">
       <h1 className=" uppercase text-[7vw] lg:text-[6vw] font-bold pt-12 sm:pt-20 pb-10 sm:pb-16">
         Interested?
       </h1>
-      <div className="review-box max-w-[90%] sm:max-w-[710px] lg:max-w-[900px] xl:max-w-[1100px] mx-auto   relative  z-0 rounded-[40px]">
-        <h1 className=" uppercase text-[7vw] lg:text-[4.5vw] py-3 sm:py-5">
+      <div className="review-box max-w-[90%] sm:max-w-[710px] lg:max-w-[900px] xl:max-w-[1100px] mx-auto   relative  z-0 rounded-[40px] border-[1px] border-white">
+        <h1 className="Geometria-Medium uppercase text-[7vw] lg:text-[4.5vw] py-3 sm:py-5 tracking-[15px]">
           Contact us
         </h1>
         <form
           action=""
-          className="px-8 sm:px-12 lg:px-16  text-[3vw] sm:text-[2.4vw] lg:text-[1.4vw] font-bold"
+          className="Geometria-ExtraBold px-8 sm:px-12 lg:px-16  text-[3vw] sm:text-[2.4vw] lg:text-[1.4vw] font-bold"
         >
           <div className=" sm:flex justify-between sm:mb-5">
             <div className="sm:w-[45%] text-left mb-3 sm:mb-0">
